@@ -1,0 +1,17 @@
+[
+  {
+    "text": "指南",
+    "link": "/guide/start/index",
+    "activeMatch": "/guide/"
+  },
+  {
+    "text": "博客",
+    "link": "/blog/",
+    "activeMatch": "/blog/"
+  },
+  {
+    "text": "致谢",
+    "link": "/thxfor/",
+    "activeMatch": "/thxfor/"
+  }
+]
