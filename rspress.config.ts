@@ -3,6 +3,7 @@ import { defineConfig } from 'rspress/config';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
+  base: '/',
   title: 'TypeScript HandBook',
   description: 'TS HandBook 中文版',
   icon: '/icon_handbook.svg',
@@ -10,13 +11,7 @@ export default defineConfig({
     light: '/icon_handbook.svg',
     dark: '/icon_handbook.svg',
   },
-  builderConfig: {
-    output: {
-      distPath: {
-        root: 'dist',
-      },
-    },
-  },
+  ssg: true,
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
