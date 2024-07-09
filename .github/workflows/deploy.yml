@@ -15,11 +15,11 @@ jobs:
         with:
           ref: main
       - name: Use Node.js 21 # 配置Node
-        uses: actions/setup-node@v3 # 配置脚本来自 https://github.com/actions/setup-node
+        uses: actions/setup-node@v4 # 配置脚本来自 https://github.com/actions/setup-node
         with:
-          node-version: "21"
+          node-version: 21
       - name: Install pnpm
-        uses: pnpm/action-setup@v2.2.2
+        uses: pnpm/action-setup@v4
         id: pnpm-install
         with:
           version: 9
