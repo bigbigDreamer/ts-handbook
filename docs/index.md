@@ -10,7 +10,7 @@ hero:
       link: /guide/start/index
     - theme: alt
       text: Github
-      link: https://github.com/web-infra-dev/rspress
+      link: https://github.com/bigbigDreamer/ts-handbook
   image:
     src: /icon_handbook.svg
     alt: TsHandBook Logo
