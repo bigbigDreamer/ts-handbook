@@ -1,5 +1,6 @@
 import * as path from 'path';
 import { defineConfig } from 'rspress/config';
+import { pluginShiki } from '@rspress/plugin-shiki';
 
 export default defineConfig({
   root: path.join(__dirname, 'docs'),
@@ -12,6 +13,7 @@ export default defineConfig({
     dark: '/icon_handbook.svg',
   },
   ssg: true,
+  plugins: [<any>pluginShiki()],
   themeConfig: {
     socialLinks: [
       { icon: 'github', mode: 'link', content: 'https://github.com/web-infra-dev/rspress' },
