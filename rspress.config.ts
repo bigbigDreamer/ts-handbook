@@ -12,7 +12,7 @@ export default defineConfig({
     light: '/icon_handbook.svg',
     dark: '/icon_handbook.svg',
   },
-  ssg: true,
+  ssg: false,
   plugins: [<any>pluginShiki()],
   themeConfig: {
     socialLinks: [
