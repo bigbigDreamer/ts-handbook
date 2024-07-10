@@ -35,6 +35,8 @@
 - [Cloudflare](https://dash.cloudflare.com)
 
 
-## LICENSE
+## [LICENSE](./LICENSE) 
 
-@copyright by ryanwang
+[Unlicense](https://unlicense.org/)
+
+@create by ryanwang with Unlicense
